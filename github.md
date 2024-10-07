@@ -33,12 +33,67 @@ GitHub oferece uma funcionalidade de issues (problemas) para rastrear bugs, nova
 #### Ações e Automação
 GitHub Actions é uma plataforma de integração contínua e entrega contínua (CI/CD) que permite automatizar fluxos de trabalho. Desenvolvedores podem criar scripts que são executados em resposta a eventos como commits, pull requests e releases.
 
-### Conclusão
 
-GitHub transformou a maneira como desenvolvedores colaboram em projetos de software. Sua combinação de controle de versão com Git, ferramentas de colaboração e integração com uma vasta gama de serviços fazem dele um recurso indispensável para desenvolvedores em todo o mundo. Desde sua aquisição pela Microsoft, GitHub continuou a crescer e inovar, mantendo-se como a principal plataforma de desenvolvimento de software colaborativo.
 
-### Recursos Adicionais
 
-- [Site Oficial do GitHub](https://github.com)
-- [Documentação do GitHub](https://docs.github.com)
-- [Guia do Git](https://git-scm.com/doc)
+### NOMENCLATURAS DO GITHUB
+
+No GitHub, existem várias nomenclaturas e termos específicos que são fundamentais para entender como a plataforma funciona. Aqui estão alguns dos termos mais comuns e suas definições:
+
+### Repositórios e Conteúdo
+
+1. **Repository (Repositório)**: Um local onde os projetos são armazenados. Cada repositório pode conter múltiplos arquivos e pastas, além de um histórico completo de todas as mudanças feitas no projeto.
+
+2. **Commit**: Uma snapshot (instantâneo) do estado atual do repositório. Cada commit tem um identificador único (hash) e contém uma mensagem descritiva das mudanças feitas.
+
+3. **Branch**: Uma ramificação do repositório onde o desenvolvimento pode ocorrer isoladamente do branch principal. Permite trabalhar em novas funcionalidades ou correções de bugs sem afetar o código estável.
+
+4. **Merge**: O processo de integrar mudanças de um branch para outro. Normalmente usado para incorporar alterações feitas em branches de desenvolvimento ao branch principal.
+
+5. **Pull Request (PR)**: Uma solicitação para integrar mudanças de um branch para outro. Permite a revisão e discussão das alterações antes de serem integradas ao branch principal.
+
+6. **Fork**: Uma cópia de um repositório que permite ao usuário experimentar livremente sem afetar o repositório original. Forks são frequentemente usados para contribuir com projetos de código aberto.
+
+7. **Clone**: Uma cópia local de um repositório remoto. Permite ao usuário trabalhar no projeto localmente e sincronizar as alterações com o repositório remoto.
+
+### Gerenciamento de Projetos
+
+8. **Issue**: Uma unidade de trabalho que pode representar um bug, uma nova funcionalidade, uma tarefa ou uma pergunta. Issues podem ser comentadas, etiquetadas e atribuídas a membros da equipe.
+
+9. **Milestone**: Um agrupamento de issues e pull requests em uma meta ou etapa específica do projeto. Ajuda a organizar o progresso e planejar lançamentos.
+
+10. **Label (Etiqueta)**: Uma tag aplicável a issues e pull requests para categorizá-los ou priorizá-los. Labels podem ser personalizadas para atender às necessidades do projeto.
+
+11. **Project Board**: Um quadro de gerenciamento de projetos estilo Kanban que permite organizar issues e pull requests em colunas como "To Do", "In Progress" e "Done".
+
+### Colaboração e Automação
+
+12. **Collaborator (Colaborador)**: Um usuário que tem permissões específicas para contribuir diretamente com um repositório. Colaboradores podem ter diferentes níveis de acesso, desde leitura até administração completa.
+
+13. **Actions**: Fluxos de trabalho automatizados que podem ser configurados para executar tarefas em resposta a eventos no repositório, como commits ou pull requests. Usado para integração contínua (CI) e entrega contínua (CD).
+
+14. **Webhook**: Uma callback HTTP que é acionada por eventos específicos em um repositório. Webhooks são usados para integrar o GitHub com outros serviços.
+
+15. **Gist**: Um serviço de compartilhamento de trechos de código e notas. Cada Gist é um repositório Git, permitindo versionamento e fork.
+
+16. **Release**: Um ponto específico no histórico do projeto que é significativo para o desenvolvimento, como uma nova versão do software. Releases incluem o código-fonte, notas de lançamento e arquivos binários.
+
+17. **Wiki**: Uma coleção de páginas interligadas usada para documentar o projeto. Cada repositório pode ter sua própria wiki.
+
+### Segurança e Controle
+
+18. **Branch Protection**: Regras aplicáveis a branches para controlar como as alterações são feitas. Podem incluir requisitos como aprovação de pull requests e execução bem-sucedida de testes.
+
+19. **Code Owners**: Arquivo que designa responsáveis por partes específicas do código. Quando mudanças são propostas, os code owners são automaticamente solicitados para revisão.
+
+20. **Dependabot**: Um bot que ajuda a manter dependências atualizadas e seguras. Dependabot pode criar pull requests automaticamente para atualizar dependências quando novas versões são lançadas.
+
+### Interface e Uso
+
+21. **Markdown**: Uma linguagem de marcação leve usada para formatar texto em GitHub, como em arquivos README, issues e pull requests.
+
+22. **README**: Um arquivo de texto (geralmente em Markdown) que fornece uma visão geral e documentação básica do projeto. Normalmente, é o primeiro arquivo que os visitantes veem em um repositório.
+
+23. **GitHub Pages**: Um serviço que permite hospedar sites estáticos diretamente de um repositório GitHub. Usado com frequência para documentações e blogs.
+
+Compreender essas nomenclaturas é essencial para utilizar o GitHub de maneira eficiente e colaborar efetivamente em projetos de software.
